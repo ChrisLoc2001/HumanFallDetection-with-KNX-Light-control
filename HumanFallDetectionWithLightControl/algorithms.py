@@ -311,7 +311,7 @@ def alg2_sequential(queues, argss, consecutive_frames, event):
                 if ligh_on == False:
                     s.send(notifica_caduta.encode())
                 ligh_on = True
-                print("FallDetected frame :" + str(count) + " ----> Light ON")
+                #print("FallDetected frame :" + str(count) + " ----> Light ON")
 
             elif argss[0].num_cams == 2:
                 num_matched, new_num, indxs_unmatched1 = match_ip(ip_sets[0], kp_frames[0], lstm_sets[0], num_matched, max_length_mat)
