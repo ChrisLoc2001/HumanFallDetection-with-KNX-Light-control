@@ -20,5 +20,5 @@ Usage:
 	python fall-detector.py
 
 
-#HumanFallDetection Alghorithms
+# HumanFallDetection Alghorithms
 The Fall Detection Algorithms used in this project is https://doi.org/10.1117/12.2580700
