@@ -251,7 +251,7 @@ def alg2_sequential(queues, argss, consecutive_frames, event):
         s.connect((str(socket.gethostbyname(socket.gethostname())), 15000))
         print("connessione stabilita")
     except socket.error as err:
-        print(err + "EXIT..........")
+        print(f"{err} EXIT..........")
         sys.exit()
 
     model = LSTMModel(h_RNN=48, h_RNN_layers=2, drop_p=0.1, num_classes=7)
