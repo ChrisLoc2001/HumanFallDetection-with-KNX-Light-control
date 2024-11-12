@@ -301,12 +301,11 @@ def alg2_sequential(queues, argss, consecutive_frames, event):
 
             if (activity_dict[prediction + 5] == "FALL"):
                 count = count + 1
-            elif (activity_dict[prediction + 5] == "None"):
+            else:
+            #elif (activity_dict[prediction + 5] == "None"):
                 if ligh_on == True:
                     s.send(notifica_spegni.encode())
                     ligh_on = False
-                count = 0
-            else:
                 count = 0
             if count > 10:
                 if ligh_on == False:

@@ -9,8 +9,8 @@ from xknx.devices import Light
 async def ricevi_notifica(conn):
     while True:
         notifica = conn.recv(4096)
-        print(notifica.decode())
-        await gestione_Luci(notifica.decode())
+        if(len(notifica.decode())>0):
+                await gestione_Luci(notifica.decode())
 
 async def gestione_Luci(notifica):
     try:
@@ -18,11 +18,9 @@ async def gestione_Luci(notifica):
                 light = Light(xknx,
                 name="prova",
                 group_address_switch="0/0/1")
-                print("KNX connection ok")
                 if (notifica == "FALL"):
-                    print("accendi")
                     await light.set_on()
-                if(notifica == "SPEGNI"):
+                if(notifica == "NOT FALL"):
                     await light.set_off()
     except Exception as e:
         print(e)
