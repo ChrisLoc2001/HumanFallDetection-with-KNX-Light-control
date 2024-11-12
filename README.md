@@ -18,3 +18,7 @@ Usage:
 
 2---> Run HumanFallDetection with this command-line:
 	python fall-detector.py
+
+
+#HumanFallDetection Alghorithms
+The Fall Detection Algorithms used in this project is https://doi.org/10.1117/12.2580700
