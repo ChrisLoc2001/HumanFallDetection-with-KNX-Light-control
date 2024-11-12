@@ -12,6 +12,8 @@ Setup Environment(ServerFallDetection):
 
 1---> Create a environment in python=3.9
 
+2---> Install xknx library
+
 Usage:
 
 1---> Run ServerFallDetection main
