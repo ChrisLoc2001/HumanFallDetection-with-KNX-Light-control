@@ -13,9 +13,10 @@ pip install -r requirements.txt
 ```
 ## Usage:
 1)Run ServerFallDetection main<br>
-2)Run HumanFallDetection with this command-line:
+2)Run HumanFallDetection with this command-line:<br>
+```shell script
 	python fall-detector.py
-
+```
 
 ## HumanFallDetection Alghorithms
 The Fall Detection Algorithms used in this project is <br>[Multi-camera, multi-person, and real-time fall detection using long short term memory](https://doi.org/10.1117/12.2580700)</br>
