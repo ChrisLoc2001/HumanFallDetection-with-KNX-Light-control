@@ -7,7 +7,7 @@
 
 3---> install requirements.txt
 
-# >Setup Environment(ServerFallDetection):
+# Setup Environment(ServerFallDetection):
 
 1---> Create a environment in python=3.9
 
