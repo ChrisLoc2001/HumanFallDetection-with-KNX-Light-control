@@ -1,6 +1,6 @@
 # HumanFallDetection-with-KNX-Light-control
 
-Setup Environment(HumanFallDetectionWithLightControl):
+<br>Setup Environment(HumanFallDetectionWithLightControl):</br>
 
 1---> conda create --name FallDetectionEnv python=3.8
 
@@ -8,13 +8,13 @@ Setup Environment(HumanFallDetectionWithLightControl):
 
 3---> install requirements.txt
 
-Setup Environment(ServerFallDetection):
+<br>Setup Environment(ServerFallDetection):</br>
 
 1---> Create a environment in python=3.9
 
 2---> Install xknx library
 
-Usage:
+<br>Usage:</br>
 
 1---> Run ServerFallDetection main
 
