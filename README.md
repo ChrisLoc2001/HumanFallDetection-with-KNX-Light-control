@@ -23,4 +23,4 @@ Usage:
 
 
 # HumanFallDetection Alghorithms
-The Fall Detection Algorithms used in this project is https://doi.org/10.1117/12.2580700
+The Fall Detection Algorithms used in this project is <br>[Multi-camera, multi-person, and real-time fall detection using long short term memory](https://doi.org/10.1117/12.2580700)</br>
